@@ -16,8 +16,10 @@ public class Aula009EstruturasCondicionaisDoWhileFor {
 // Exercicios: imprima apenas numeros pares de 0 até 1000:
 
 
-        for (int i = 0; i <= 1000; i++) {
-            System.out.println(i++);
+        for (int i = 11; i <= 1000; i++) {
+            if (i % 2 == 0) {
+                System.out.println(i);
+            }
 
 
 
