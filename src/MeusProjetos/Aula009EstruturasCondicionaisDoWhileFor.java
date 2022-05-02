@@ -8,10 +8,20 @@ public class Aula009EstruturasCondicionaisDoWhileFor {
         //} while (count<=10);
         //System.out.println("===========Fim de operação===========");
 
-        for (int i = 0; i <= 10; i++) {
-            System.out.println("Enquanto "+i+" menor ou igual a 10 faça");
+        //for (int i = 0; i <= 10; i++) {
+            //System.out.println("Enquanto "+i+" menor ou igual a 10 faça");
+         // }
+        //System.out.println("==============Fim de Operação=================");
+
+// Exercicios: imprima apenas numeros pares de 0 até 1000:
+
+
+        for (int i = 0; i <= 1000; i++) {
+            System.out.println(i++);
+
+
+
         }
-        System.out.println("==============Fim de Operação=================");
     }
 
 }
